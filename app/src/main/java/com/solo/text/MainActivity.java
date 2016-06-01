@@ -11,6 +11,7 @@ public class MainActivity extends AppCompatActivity
 
     MyView v1;
     Button bt;
+    String name="solo";
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
