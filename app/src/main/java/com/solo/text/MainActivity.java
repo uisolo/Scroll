@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity
             public void onClick(View v)
             {
                 v1.scrollBy(-50,-50);
-                name="lanlan";
+                name="lanlanwoaini";
             }
         });
     }
