@@ -11,6 +11,7 @@ public class MainActivity extends AppCompatActivity
 
     MyView v1;
     Button bt;
+    String name;
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
@@ -24,6 +25,7 @@ public class MainActivity extends AppCompatActivity
             public void onClick(View v)
             {
                 v1.scrollBy(-50,-50);
+                name="lanlan";
             }
         });
     }
